@@ -1,4 +1,5 @@
-﻿using System.Text;
+﻿using Ecomobil_sit2.Data;
+using System.Text;
 using System.Windows;
 using System.Windows.Controls;
 using System.Windows.Data;
@@ -19,6 +20,9 @@ namespace Ecomobil_sit2
         public MainWindow()
         {
             InitializeComponent();
+
+            DatabaseConnection dbConnection = new DatabaseConnection();
+
         }
     }
 }
